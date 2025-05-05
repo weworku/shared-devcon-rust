@@ -1,0 +1,6 @@
+services:
+  dev:
+    build: .
+    volumes:
+      - ../:/usr/src/app # ローカルをコンテナ内にマウント
+    command: sleep infinity
